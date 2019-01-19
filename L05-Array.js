@@ -47,4 +47,24 @@ pushInMultiDimentionalArray.push(["sachin","sadaba"]);
 
 console.log(pushInMultiDimentionalArray);
 
+//Pop element from array
+
+var popArray = [10,20,30];
+var popedElement = popArray.pop();
+
+console.log(popArray);
+console.log(popedElement);
+
+var popMultiArray = [["vaibhav","wipro"],["chandu","Ecotech"]];
+popedElement = popMultiArray[1].pop();
+console.log(popMultiArray);
+console.log(popedElement);
+
+popedElement = popMultiArray.pop();
+console.log(popMultiArray);
+console.log(popedElement);
+
+
+
+
 
