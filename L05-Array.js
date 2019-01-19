@@ -26,3 +26,14 @@ modifiedArray[2] = 40;
 
 console.log(modifiedArray);
 
+//Value of multi dimentional array
+
+var sampleArray = [[1,2,3],[4,5,6],[7,8,9],13,14];
+
+var mySampleData = sampleArray[2][1];
+
+var mySampleData1 = sampleArray[3]
+
+console.log(mySampleData1);
+
+
