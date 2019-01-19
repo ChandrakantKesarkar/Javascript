@@ -36,7 +36,7 @@ var mySampleData1 = sampleArray[3]
 
 console.log(mySampleData1);
 
-// Push Array
+// Push Array = add new element at last
 var pushArray = ["chandu","vaibhav","prasad"];
 pushArray.push("rama");
 
@@ -47,7 +47,7 @@ pushInMultiDimentionalArray.push(["sachin","sadaba"]);
 
 console.log(pushInMultiDimentionalArray);
 
-//Pop element from array
+//Pop element from array = removes last element
 
 var popArray = [10,20,30];
 var popedElement = popArray.pop();
@@ -65,7 +65,7 @@ console.log(popMultiArray);
 console.log(popedElement);
 console.log("----------------------------------------");
 
-//use of shift
+//use of shift = removes first element
 
 var shiftArray = ["chandu","vaibhav"];
 var removedFistElement = shiftArray.shift();
@@ -75,6 +75,22 @@ console.log(removedFistElement);
 
 shiftArray.push("Raja");
 console.log(shiftArray);
+
+// Use of unshift = adds element at first
+
+var unshiftArray = ["sant","mant","tant"];
+
+unshiftArray.unshift("khant");
+console.log(unshiftArray);
+console.log("--------------------------------------------");
+
+var unshiftMultiArray = [["chandu","nandu"], ["sandu","lanju"]];
+unshiftMultiArray[0].unshift("raja","rani");
+console.log(unshiftMultiArray);
+unshiftMultiArray.unshift(["lata","usha"]);
+console.log(unshiftMultiArray);
+
+
 
 
 
