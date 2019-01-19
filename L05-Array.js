@@ -18,3 +18,11 @@ var nestedArrayWithIndex = nestedArray[0];
 var myfirstNestedVal = nestedArrayWithIndex[0];
 
 console.log(myfirstNestedVal);
+
+//modify array value
+
+var modifiedArray = [10,20,30];
+modifiedArray[2] = 40;
+
+console.log(modifiedArray);
+
