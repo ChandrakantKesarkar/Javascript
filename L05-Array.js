@@ -36,4 +36,15 @@ var mySampleData1 = sampleArray[3]
 
 console.log(mySampleData1);
 
+// Push Array
+var pushArray = ["chandu","vaibhav","prasad"];
+pushArray.push("rama");
+
+console.log(pushArray);
+
+var pushInMultiDimentionalArray = [["rama","chandu"],["santu","vishal"]];
+pushInMultiDimentionalArray.push(["sachin","sadaba"]);
+
+console.log(pushInMultiDimentionalArray);
+
 
