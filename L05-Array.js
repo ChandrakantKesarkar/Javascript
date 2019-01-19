@@ -63,6 +63,19 @@ console.log(popedElement);
 popedElement = popMultiArray.pop();
 console.log(popMultiArray);
 console.log(popedElement);
+console.log("----------------------------------------");
+
+//use of shift
+
+var shiftArray = ["chandu","vaibhav"];
+var removedFistElement = shiftArray.shift();
+
+console.log(shiftArray);
+console.log(removedFistElement);
+
+shiftArray.push("Raja");
+console.log(shiftArray);
+
 
 
 
