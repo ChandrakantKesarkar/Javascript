@@ -12,3 +12,14 @@ function mySecondSection()
 
 myFirstFunction();
 mySecondSection();
+
+console.log("---------------------------------");
+
+function Add(a, b)
+{
+    //var addtion = a + b;
+    //console.log("Addition of a and b = " +addtion);
+    console.log(`${a} + ${b} is equal to ${a + b}`);
+}
+
+Add(10,10);
